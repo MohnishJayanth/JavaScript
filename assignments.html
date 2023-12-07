@@ -1,0 +1,104 @@
+<html>
+    <head>
+<title>Events</title>
+<link rel="stylesheet" href="./assignments.css">
+    </head>
+    <body>
+        <h1 align="center">JavaScript Events</h1>
+        <br><br><br><br><br>
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+            <div class="button-container">
+                <span id="myTextt">Message apears when cliked once </span>
+                <span id="myText" style="margin-left: 50px;">OnCLick</span>
+        <button onclick="mouseevents()" class="mohnish">Click</button>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="button-container">
+                <span id="myText">Message apears on mouse outs</span>
+                <span id="myTextt" style="margin-left: 50px;">OnMouseout </span>
+        <button onmouseout="mouseevents()" class="mohnish">Mouseout</button>
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="button-container">
+                <span id="myText">Message apears on mouseover</span>
+                <span id="myTextt" style="margin-left: 50px;">OnMouseover </span>
+        <button onmouseover="mouseevents()" class="mohnish">Mouseover</button>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+            <div class="button-container">
+                <span id="myText" >Changes to uppercase</span>
+                <span id="myTextt" style="margin-left: 50px;">OnInput</span>
+        <input  type="text" id="inputText" oninput="convertToUppercase(this)" placeholder="Uppercase">
+        </div>
+        </div>
+        <div class="col-4">
+            <div class="button-container">
+                <span id="myText" >Changes to Lowercase</span>
+                <span id="myTextt" style="margin-left: 50px;">OnInput</span>
+        <input type="text" id="inputText" oninput="convertToLowercase(this)" placeholder="Lowercase">
+       </div>
+       </div>
+       
+       <div class="col-4">
+            <div class="button-container">
+                <span id="myText">Changes Color</span>
+                <span id="myTextt" style="margin-left: 50px;">OnCLick</span>
+              <button id="myButton" onclick="changeButtonColor()">Click me to change color</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            <br><br><br><br><br>
+
+          <div class="container">
+            <div class="row">
+                <div class="col-4">
+            <div class="button-container">
+                <span id="myTextt" style="margin-left: 50px;">Ondblclick</span>
+                <span id="myText">Message appears when double clicked</span>
+        <button ondblclick="mouseevents()" class="mohnish">DoubleClick</button>
+    </div>
+    </div>
+    
+    <div class="col-4">
+    <div class="button-container">
+        <span id="myTextt" style="margin-left: 50px;">OnmouseWeel</span>
+        <span id="myText">Message appeaers when wheel is moved</span>
+    <button onmousewheel="mouseevents()" class="mohnish">Wheel</button>
+    </div>
+    </div>
+    <div class="col-4">
+            <div class="button-container">
+                <span id="myTextt" style="margin-left: 100px;">OnFocus</span>
+                <span id="myText">Message appears when cursor is kept on the input</span>
+                <br>
+        <input type="text" onfocus="mouseeventss()" class="mohnish" placeholder="onFocus"/>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+        <div class="button-container">
+            <span id="myTextt" style="margin-left: 50px;">OnCLick</span>
+            <span id="myText">Changes Color</span>
+        <input type="text" id="abc" onblur="mouseevent()" placeholder="OnBlur" class="mohnish"/>
+        </div>
+        </div>
+        </div>
+        </div>
+    </body>
+    <script src="./assignments.js" type="text/javascript"></script>
+</html>

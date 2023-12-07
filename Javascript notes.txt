@@ -1,0 +1,354 @@
+Road map for learning ant langauge
+create
+read
+update
+delete
+
+/*
+*/
+comment
+
+Rukes
+identifiers should contain a-z A-Z 0-9 $ _
+should not start with 0-9
+should not contain any special characters
+should not contain keywords as identifiers
+Identifiers are case sensitive
+
+class name always starts with capital number
+
+Javascript keywords
+
+data type:
+var, let, constant
+undefined, null
+true 
+false
+
+Data types
+number
+string
+boolean
+null
+symbol
+
+only additon function has concatination 
+var a=10
+var b='30'
+console.log(a+b)
+'1030'
+
+var a=10
+var b=30
+console.log(a+b)
+'40'
+
+var a=10
+var b='30'
+console.log(a*b)
+'10*30'300
+string is converter to number only if it is a number
+true=1 false=0
+
+
+
+Control Flow:
+if 
+else
+switch
+case
+break
+default
+for
+while
+do
+continue
+debug
+
+fUNCTION:
+function
+return
+
+
+OOP:-
+
+class:
+
+class
+new
+this
+super
+extends
+implements
+
+public 
+private
+protected
+ 
+Error Handling:
+try
+catch
+finally
+throw
+throws
+
+
+ES6:
+import/export
+async/await
+
+
+typeof to find the data type
+
+
+
+JS operstors
+arithmatic + * / x ** 
+logical && ||
+relation   <> <= =>
+equality == ===
+assignment = =+ =- =/ =x
+ternary 
+_________?____:_____
+salary>200?eligible:not eligible
+instaed of 
+
+if(salary>200){
+console.log(Eligible)
+}
+else{
+console.log(not eligible)
+}
+
+condition true false
+incriment/decrement ++ --
+unary !
+binary 
+ 
+a+b
+operand operator operand
+
+equality checks data type and content/value
+
+strict equality only data type
+
+conditional statements
+
+if(condition){
+
+}
+
+if(condtion){
+
+}
+else{
+
+}
+
+switch()
+{
+case 1: 
+break;
+case 2:
+break;
+deaafult:
+
+iterative stements
+for (condition){
+
+}
+
+while()
+{
+
+}
+
+do{
+}
+while{
+}
+
+for(of) {
+}
+
+for(in){
+}
+
+ES6 array methods
+[]map()
+.forEach()
+.filter()
+.find()
+.redue()
+
+
+if("mohnish"){
+c.lg(not married)
+}
+else{
+c.lg(married)
+}
+output: not married
+
+
+if(0){
+c.lg(not married)
+}
+else{
+c.lg(married)
+}
+
+output: married
+
+if there is 
+
+value=true
+
+0=false
+in if else statements
+
+is this valid for all conditional statements
+ss
+
+
+initialization st var i=1
+
+conditional st i<=6
+
+incre/decre st i=i+1
+
+for loop
+for(init;cond;in/dec)
+{
+clg
+}
+
+while loop
+
+init
+while(cond)
+{
+clg
+in/dec
+}
+
+do while loop		
+
+
+init
+do
+{
+clg
+in/dec
+}
+while(cond)
+
+
+create
+let a=[]
+
+read
+clg(a); []
+
+
+Arrays
+group of elements as one one etity
+duplicate elements are allowwed
+allowed heterogenous means different variable, string, boolean, numbers
+
+indexing concept
+no negative indexing
+iterabel object
+for
+while
+do
+for (of)
+
+
+JS object
+
+it is a group of properties
+
+emp is the object
+
+emp{
+ id=100          this part is object
+ name=mohnish
+}
+property name= propeety value
+indexing si not allowed
+duplicates are not allwed
+it is not itersable
+for(in)
+
+create
+let emp{
+id=100
+name=mohnish
+salsry=10000
+{
+
+read
+(object.property)
+
+clg(emp.name) mohnish
+clg(emp.id) 100
+
+update
+
+emp.name=mohnishjayanth
+emp.email=mohis@jidcs.com
+
+clg(emp)
+
+delete
+
+delete emp.id
+
+for( any variable of array name)
+
+heterogenous means 
+
+what is functions
+
+
+how to check whether array is empty
+if(emp.lenght>0)
+
+how to check object is empty
+if(Object.keys(emp).lenght>0)
+
+if(Object.values(emp).lenght>0)
+
+how to convert object to string and string to object
+stringify
+
+unshift is to add element to the beginnning of the array
+numbers.unshift(10)
+
+shift is to remoe the element from the beg of the array
+numbers.shift()
+
+push is to add element to the end of the array
+numbers.push(10)
+
+pop is to remove the eleemtn from the end of the array
+numbers.pop()
+
+indexof
+returns the index number of the array
+
+console.log(objectname.indexof(element in array))
+
+let ids=[m,k,w]
+
+console.log(ids.indexof(m))
+
+
+events
+mouse events
+brwser events
+form events
+
+
+
